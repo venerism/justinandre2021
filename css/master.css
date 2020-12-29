@@ -1,17 +1,18 @@
-/* Error: expected "{".
- *    ,
- * 24 |   max-width: 1440;px;
- *    |                     ^
- *    '
- *   scss/master.scss 24:21  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a    \2577 \a 24 \2502    max-width: 1440;px;\a    \2502                      ^\a    \2575 \a   scss/master.scss 24:21  root stylesheet';
+html {
+  background-color: #FFF;
+  margin: 0;
+  padding: 0;
 }
+
+body, content {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+content {
+  max-width: 1440px;
+  width: 100%;
+}
+
+/*# sourceMappingURL=master.css.map */
