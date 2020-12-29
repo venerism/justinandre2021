@@ -72,7 +72,7 @@ h1, h2, h3, caption, p {
 html {
   background-color: #F0FAF1;
   margin: 0;
-  padding: 0;
+  padding: 24px;
 }
 
 body, content {
