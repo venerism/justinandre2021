@@ -3,6 +3,7 @@
 @import "images";
 @import "fonts";
 @import "colors";
+@import "normalize";
 
 
 html{
@@ -22,4 +23,26 @@ body,content{
 content{
   max-width: 1440px;
   width: 100%;
-  border: 1px solid red;}
+}
+
+section{
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+
+button{
+  border: none;
+  background-color: $black;
+  color: $white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: 'Neue Montreal', sans-serif;
+  font-weight: normal;
+  border-radius: 12px;
+}
