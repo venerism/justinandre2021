@@ -1,0 +1,26 @@
+@import "layout";
+@import "mixins";
+@import "images";
+
+
+$black:#000;
+$white:#FFF;
+$grey: #2D3035;
+
+
+html{
+  background-color: $white;
+  margin: 0;
+  padding: 0;
+}
+
+body,content{
+  padding:0;
+  display:flex;
+  justify-content: center;
+}
+
+content{
+  max-width: 1440;px;
+  width: 100%;
+}
