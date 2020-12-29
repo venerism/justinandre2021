@@ -5,7 +5,14 @@
   font-family: 'Neue Montreal';
   src: url('../fonts/NeueMontreal-Regular.woff') format('woff'),
   url('NeueMontreal-Regular.woff2') format('woff2');
-  font-weight: regular;
+  font-weight:normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'Neue Montreal Light';
+  src: url('../fonts/NeueMontreal-Light.woff') format('woff'),url('NeueMontreal-Light.woff2') format('woff2');
+  font-weight: lighter;
   font-style: normal;
 }
 
@@ -44,6 +51,7 @@ p{
   line-height: 12px;
 }
 
-h1,h2,caption,p{
+h1,h2,h3,caption,p{
   font-family: 'Neue Montreal', sans-serif;
+  font-weight: normal;
 }

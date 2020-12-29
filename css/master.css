@@ -1,3 +1,8 @@
+.display {
+  display: flex;
+  flex-direction: column;
+}
+
 .navbar {
   display: flex;
   flex-direction: row;
@@ -8,10 +13,20 @@ ul {
   list-style: none;
 }
 
+.work {
+  border: solid 1px blue;
+}
+
 @font-face {
   font-family: "Neue Montreal";
   src: url("../fonts/NeueMontreal-Regular.woff") format("woff"), url("NeueMontreal-Regular.woff2") format("woff2");
-  font-weight: regular;
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Neue Montreal Light";
+  src: url("../fonts/NeueMontreal-Light.woff") format("woff"), url("NeueMontreal-Light.woff2") format("woff2");
+  font-weight: lighter;
   font-style: normal;
 }
 h1 {
@@ -49,12 +64,13 @@ p {
   line-height: 12px;
 }
 
-h1, h2, caption, p {
+h1, h2, h3, caption, p {
   font-family: "Neue Montreal", sans-serif;
+  font-weight: normal;
 }
 
 html {
-  background-color: #FFF;
+  background-color: #F0FAF1;
   margin: 0;
   padding: 0;
 }
