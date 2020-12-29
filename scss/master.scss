@@ -18,9 +18,10 @@ body,content{
   padding:0;
   display:flex;
   justify-content: center;
+  flex-direction: column;
 }
 
 content{
   max-width: 1440px;
   width: 100%;
-}
+  border: 1px solid red;}
