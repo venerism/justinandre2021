@@ -8,6 +8,51 @@ ul {
   list-style: none;
 }
 
+@font-face {
+  font-family: "Neue Montreal";
+  src: url("../fonts/NeueMontreal-Regular.woff") format("woff"), url("NeueMontreal-Regular.woff2") format("woff2");
+  font-weight: regular;
+  font-style: normal;
+}
+h1 {
+  font-size: 48px;
+  line-height: 58px;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 43px;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 28.8px;
+}
+
+caption {
+  font-size: 14px;
+  line-height: 19px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.textlink {
+  text-decoration: underline;
+  color: #F07C42;
+}
+
+.small {
+  font-size: 10px;
+  line-height: 12px;
+}
+
+h1, h2, caption, p {
+  font-family: "Neue Montreal", sans-serif;
+}
+
 html {
   background-color: #FFF;
   margin: 0;
