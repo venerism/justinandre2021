@@ -1,0 +1,19 @@
+{
+  "name": "node-sass",
+  "version": "1.0.0",
+  "description": "My new Portfolio 2021",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/venerism/justinandre2021.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/venerism/justinandre2021/issues"
+  },
+  "homepage": "https://github.com/venerism/justinandre2021#readme"
+}
