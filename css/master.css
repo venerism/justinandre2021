@@ -12,6 +12,10 @@ ul {
   list-style: none;
 }
 
+.intro {
+  margin-top: 72px;
+}
+
 .experience {
   margin: 0px 0 20px 0;
   padding: 0 0 0 0;
@@ -51,7 +55,7 @@ ul {
 }
 @media (max-width: 768px) {
   .about-grid {
-    grid-column: 1/8;
+    grid-column: 1/9;
   }
 }
 
@@ -99,6 +103,24 @@ ul {
   margin-bottom: 20px;
 }
 
+.spanimage2 {
+  background-color: #000;
+  min-height: 740px;
+  max-height: 740px;
+  grid-column: 1/9;
+  grid-row: 1/2;
+  margin-bottom: 20px;
+}
+
+.spanimage3 {
+  background-color: #E4E4E4;
+  min-height: 740px;
+  max-height: 740px;
+  grid-column: 1/9;
+  grid-row: 1/2;
+  margin-bottom: 20px;
+}
+
 .project {
   margin-top: 60px;
   margin-bottom: 90px;
@@ -109,7 +131,7 @@ ul {
 }
 @media (max-width: 768px) {
   .left {
-    grid-column: 1/8;
+    grid-column: 1/9;
   }
 }
 
@@ -118,7 +140,7 @@ ul {
 }
 @media (max-width: 768px) {
   .right {
-    grid-column: 1/8;
+    grid-column: 1/9;
   }
 }
 
@@ -568,7 +590,7 @@ template {
 }
 
 html {
-  background-color: #F0FAF1;
+  background-color: #FFF;
   margin: 0;
   padding: 24px;
 }

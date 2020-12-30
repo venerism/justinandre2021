@@ -21,6 +21,7 @@ ul{
 }
 
 .intro{
+  margin-top: 72px;
 }
 
 .experience{
@@ -57,7 +58,7 @@ grid-row: 1/4;
 .about-grid{
   grid-column: 1/6;
   @include for-tablet-portait-up{
-  grid-column: 1/8}
+  grid-column: 1/9}
 }
 
 .about-elsewhere{
@@ -97,7 +98,22 @@ text-decoration: none;
   grid-column: 1/9;
   grid-row: 1/2;
   margin-bottom: 20px;
-
+}
+.spanimage2{
+  background-color: $black;
+  min-height: 740px;
+  max-height: 740px;
+  grid-column: 1/9;
+  grid-row: 1/2;
+  margin-bottom: 20px;
+}
+.spanimage3{
+  background-color: $platinum;
+  min-height: 740px;
+  max-height: 740px;
+  grid-column: 1/9;
+  grid-row: 1/2;
+  margin-bottom: 20px;
 }
 
 .project{
@@ -108,12 +124,12 @@ margin-bottom: 90px;
 .left{
 grid-column: 1/4;
 @include for-tablet-portait-up{
-grid-column: 1/8}
+grid-column: 1/9}
 }
 .right{
 grid-column: 5/9;
 @include for-tablet-portait-up{
-grid-column: 1/8}
+grid-column: 1/9}
 }
 
 .meta{
