@@ -26,17 +26,42 @@ ul {
   grid-column: 1/7;
   grid-row: 1/4;
 }
+@media (max-width: 900px) {
+  .intro-grid {
+    grid-column: 1/9;
+  }
+}
+
+.past {
+  margin-bottom: 160px;
+}
 
 .about {
+  margin-top: 160px;
   margin-bottom: 160px;
+}
+@media (max-width: 768px) {
+  .about {
+    margin-top: 80px;
+  }
 }
 
 .about-grid {
   grid-column: 1/6;
 }
+@media (max-width: 768px) {
+  .about-grid {
+    grid-column: 1/8;
+  }
+}
 
 .about-elsewhere {
   grid-column: 7/9;
+}
+@media (max-width: 768px) {
+  .about-elsewhere {
+    grid-column: 1/8;
+  }
 }
 
 .logo {
@@ -59,6 +84,11 @@ ul {
 .date {
   grid-column: 8/9;
 }
+@media (max-width: 768px) {
+  .date {
+    grid-column: 6/8;
+  }
+}
 
 .spanimage1 {
   background-color: #01B1B0;
@@ -77,9 +107,19 @@ ul {
 .left {
   grid-column: 1/4;
 }
+@media (max-width: 768px) {
+  .left {
+    grid-column: 1/8;
+  }
+}
 
 .right {
   grid-column: 5/9;
+}
+@media (max-width: 768px) {
+  .right {
+    grid-column: 1/8;
+  }
 }
 
 .meta {
@@ -107,9 +147,20 @@ ul {
   font-weight: lighter;
   font-style: normal;
 }
+h1, h2, h3, caption, p, h4 {
+  font-family: "Neue Montreal", sans-serif;
+  font-weight: normal;
+}
+
 h1 {
   font-size: 48px;
   line-height: 58px;
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 36px;
+    line-height: 48px;
+  }
 }
 
 h2 {
@@ -118,10 +169,16 @@ h2 {
   margin-top: 8px;
   margin-bottom: 8px;
 }
+@media (max-width: 768px) {
+  h2 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+}
 
 h3 {
   font-size: 24px;
-  line-height: 28.8px;
+  line-height: 34.8px;
 }
 
 h4 {
@@ -148,11 +205,6 @@ p {
 .small {
   font-size: 10px;
   line-height: 12px;
-}
-
-h1, h2, h3, caption, p, h4 {
-  font-family: "Neue Montreal", sans-serif;
-  font-weight: normal;
 }
 
 sup {
@@ -200,6 +252,10 @@ html {
 /**
  * Remove the margin in all browsers.
  */
+body {
+  margin: 0;
+}
+
 /**
  * Render the `main` element consistently in IE.
  */
@@ -211,6 +267,10 @@ main {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
+h1 {
+  font-weight: lighter;
+}
+
 /* Grouping content
    ========================================================================== */
 /**
@@ -291,6 +351,22 @@ small {
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
  */
+sub,
+sup {
+  font-size: 55%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
 /* Embedded content
    ========================================================================== */
 /**
@@ -492,7 +568,7 @@ template {
 }
 
 html {
-  background-color: #E0F5E2;
+  background-color: #F0FAF1;
   margin: 0;
   padding: 24px;
 }

@@ -20,6 +20,10 @@ html {
  * Remove the margin in all browsers.
  */
 
+body {
+  margin: 0;
+}
+
 /**
  * Render the `main` element consistently in IE.
  */
@@ -34,7 +38,7 @@ main {
  */
 
 h1 {
-  //font-weight: lighter;
+  font-weight: lighter;
   //font-size: 2.5em;
   //margin: 0.67em 0;
 }
@@ -119,7 +123,21 @@ small {
  * all browsers.
  */
 
+sub,
+sup {
+  font-size: 55%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
 
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
 
 /* Embedded content
    ========================================================================== */
