@@ -95,30 +95,24 @@ ul {
 }
 
 .spanimage1 {
-  background-color: #01B1B0;
-  min-height: 740px;
-  max-height: 740px;
-  grid-column: 1/9;
-  grid-row: 1/2;
-  margin-bottom: 20px;
+  background-color: #F0FAF1;
 }
 
 .spanimage2 {
   background-color: #000;
-  min-height: 740px;
-  max-height: 740px;
-  grid-column: 1/9;
-  grid-row: 1/2;
-  margin-bottom: 20px;
 }
 
 .spanimage3 {
   background-color: #E4E4E4;
+}
+
+.hero {
   min-height: 740px;
   max-height: 740px;
   grid-column: 1/9;
   grid-row: 1/2;
   margin-bottom: 20px;
+  border-radius: 8px;
 }
 
 .project {

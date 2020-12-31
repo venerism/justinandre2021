@@ -92,28 +92,26 @@ text-decoration: none;
 
 
 .spanimage1{
-  background-color: $davidstea;
-  min-height: 740px;
-  max-height: 740px;
-  grid-column: 1/9;
-  grid-row: 1/2;
-  margin-bottom: 20px;
+  background-color: $green;
+
 }
 .spanimage2{
   background-color: $black;
-  min-height: 740px;
-  max-height: 740px;
-  grid-column: 1/9;
-  grid-row: 1/2;
-  margin-bottom: 20px;
+
 }
 .spanimage3{
   background-color: $platinum;
+
+}
+
+
+.hero{
   min-height: 740px;
   max-height: 740px;
   grid-column: 1/9;
   grid-row: 1/2;
   margin-bottom: 20px;
+  border-radius: 8px;
 }
 
 .project{
