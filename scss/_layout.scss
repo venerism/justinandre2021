@@ -12,13 +12,8 @@
   justify-content: space-around;
 }
 
-ul{
-  list-style: none;
-}
 
-
-.work{
-}
+.work{}
 
 .intro{
   margin-top: 72px;
@@ -37,7 +32,6 @@ ul{
 .intro-grid{
 grid-column: 1/7;
 grid-row: 1/4;
-
 @include for-tablet-landscape-up{
   grid-column: 1/9;
 }
@@ -104,6 +98,10 @@ text-decoration: none;
 
 }
 
+.carousel-container{
+}
+.carousel-slide{}
+
 
 .hero{
   min-height: 740px;
@@ -133,7 +131,6 @@ grid-column: 1/9}
 .meta{
 display:grid;
 grid-template-columns: repeat(2, 1fr);
-
 }
 
 .role{

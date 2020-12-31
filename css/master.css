@@ -8,10 +8,6 @@
   justify-content: space-around;
 }
 
-ul {
-  list-style: none;
-}
-
 .intro {
   margin-top: 72px;
 }
@@ -239,6 +235,7 @@ li {
 }
 
 ul {
+  list-style: none;
   padding: 0;
   margin-left: 0;
   display: inline;
