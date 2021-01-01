@@ -117,7 +117,7 @@
   grid-row-gap: 48px;
   grid-template-rows: 740px, 400px;
   grid-template-columns: repeat(8, 1fr);
-  margin-bottom: 260px;
+  margin-bottom: 160px;
 }
 .work .hero {
   grid-row: 1/3;
