@@ -32,6 +32,17 @@ section{
 
 
 button{
+  background: $black;
+  padding: 9px 9px;
+  text-align: center;
+  border-radius: 100%;
+  color: $white;
+  border: none;
+  cursor: pointer;
+}
+
+
+.figma{
   border: none;
   background-color: $black;
   color: $white;
