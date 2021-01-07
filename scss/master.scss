@@ -56,4 +56,10 @@ button{
   font-family: 'Neue Montreal', sans-serif;
   font-weight: normal;
   border-radius: 12px;
+  transition: 0.3s;
+
+}
+
+button:hover{
+  background-color: $mandarin;
 }

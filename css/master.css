@@ -256,8 +256,12 @@ p {
 }
 
 .textlink {
-  text-decoration: underline;
   color: #F07C42;
+  transition: 0.3s;
+}
+
+.textlink:hover {
+  color: #D05011 !important;
 }
 
 .small {
@@ -363,6 +367,7 @@ pre {
  */
 a {
   background-color: transparent;
+  text-decoration: none !important;
 }
 
 /**
@@ -674,6 +679,11 @@ button {
   font-family: "Neue Montreal", sans-serif;
   font-weight: normal;
   border-radius: 12px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #F07C42;
 }
 
 /*# sourceMappingURL=master.css.map */

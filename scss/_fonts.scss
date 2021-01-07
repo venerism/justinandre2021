@@ -63,8 +63,11 @@ p{
 }
 
 .textlink{
-  text-decoration: underline;
   color: $mandarin;
+  transition: 0.3s;
+}
+.textlink:hover{
+color: $perssimon !important;
 }
 
 .small{
