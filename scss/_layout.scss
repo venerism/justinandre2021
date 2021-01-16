@@ -11,9 +11,20 @@
   flex-direction: row;
   justify-content: space-around;
   @include for-tablet-landscape-up{
-    padding: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
     justify-content: flex-end;
   }
+}
+
+
+.contact{
+  font-family: 'Neue Montreal', sans-serif;
+  font-weight: normal;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 10px 0px 10px 0px;
 }
 
 .intro{

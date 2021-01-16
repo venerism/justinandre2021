@@ -17,3 +17,14 @@
 #dt03{
   background-image: url(../img/dt01.png);
 }
+
+
+#face{
+  height: 80px;
+  width: 80px;
+  @include for-tablet-landscape-up{
+    height: 60px;
+    width: 60px;
+    padding-left: 2px;
+  }
+}

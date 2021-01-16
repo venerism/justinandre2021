@@ -12,6 +12,15 @@
 #dt03 {
   background-image: url(../img/dt01.png); }
 
+#face {
+  height: 80px;
+  width: 80px; }
+  @media (max-width: 900px) {
+    #face {
+      height: 60px;
+      width: 60px;
+      padding-left: 2px; } }
+
 .display {
   display: grid; }
 
@@ -21,8 +30,17 @@
   justify-content: space-around; }
   @media (max-width: 900px) {
     .navbar {
-      padding: 10px;
+      padding-right: 10px;
+      padding-left: 10px;
       justify-content: flex-end; } }
+
+.contact {
+  font-family: 'Neue Montreal', sans-serif;
+  font-weight: normal;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 10px 0px 10px 0px; }
 
 .intro {
   margin-top: 72px; }
@@ -146,6 +164,15 @@
 #dt03 {
   background-image: url(../img/dt01.png); }
 
+#face {
+  height: 80px;
+  width: 80px; }
+  @media (max-width: 900px) {
+    #face {
+      height: 60px;
+      width: 60px;
+      padding-left: 2px; } }
+
 @font-face {
   font-family: 'Neue Montreal';
   src: url("../fonts/NeueMontreal-Regular.woff") format("woff"), url("NeueMontreal-Regular.woff2") format("woff2");
@@ -185,6 +212,10 @@ h3 {
     h3 {
       font-size: 18px;
       line-height: 26px; } }
+
+#email {
+  padding-top: 0px;
+  padding-bottom: 0px; }
 
 h4 {
   font-size: 16px;
@@ -556,8 +587,7 @@ body, content {
 
 content {
   max-width: 1440px;
-  width: 100%;
-  padding: 10px; }
+  width: 100%; }
 
 section {
   margin-top: 12px;
