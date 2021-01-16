@@ -9,7 +9,7 @@
 html{
   background-color: $white;
   margin: 0;
-  padding: 24px;
+  padding: 10px;
   @include for-tablet-landscape-up{
     padding: 10px;
   }
@@ -32,6 +32,8 @@ body,content{
 content{
   max-width: 1440px;
   width: 100%;
+  padding: 10px;
+
 }
 
 section{

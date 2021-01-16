@@ -10,6 +10,10 @@
   display: grid;
   flex-direction: row;
   justify-content: space-around;
+  @include for-tablet-landscape-up{
+    padding: 10px;
+    justify-content: flex-end;
+  }
 }
 
 .intro{

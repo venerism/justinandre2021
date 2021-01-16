@@ -19,6 +19,10 @@
   display: grid;
   flex-direction: row;
   justify-content: space-around; }
+  @media (max-width: 900px) {
+    .navbar {
+      padding: 10px;
+      justify-content: flex-end; } }
 
 .intro {
   margin-top: 72px; }
@@ -532,7 +536,7 @@ template {
 html {
   background-color: #FFF;
   margin: 0;
-  padding: 24px; }
+  padding: 10px; }
   @media (max-width: 900px) {
     html {
       padding: 10px; } }
@@ -552,7 +556,8 @@ body, content {
 
 content {
   max-width: 1440px;
-  width: 100%; }
+  width: 100%;
+  padding: 10px; }
 
 section {
   margin-top: 12px;
