@@ -534,6 +534,12 @@ html {
   margin: 0;
   padding: 24px; }
 
+html, body {
+  overflow-x: hidden; }
+
+body {
+  position: relative; }
+
 body, content {
   padding: 0;
   display: flex;
