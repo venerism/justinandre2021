@@ -533,6 +533,9 @@ html {
   background-color: #FFF;
   margin: 0;
   padding: 24px; }
+  @media (max-width: 900px) {
+    html {
+      padding: 10px; } }
 
 html, body {
   overflow-x: hidden; }
